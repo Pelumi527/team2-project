@@ -27,6 +27,10 @@ export default function Home(props) {
             <header><h1>WEB3BRIDGE COHORT IV</h1></header>
           </div>
           <div><h4>Presents to you a Team-2 oriented clone</h4></div>
+          <a>About</a>
+          <a>Home</a>
+          <a>Contact</a>
+          <a>More info</a>
         </navbar>
         <title>CoinMarketCap Clone</title>
         <link rel="icon" href="/favicon.ico" />
