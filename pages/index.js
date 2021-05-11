@@ -24,7 +24,7 @@ export default function Home(props) {
       <Head>
         <navbar>
           <div>
-            <header>WEB3BRIDGE COHORT IV</header>
+            <header><h1>WEB3BRIDGE COHORT IV</h1></header>
           </div>
           <div><h4>Presents to you a Team-2 oriented clone</h4></div>
         </navbar>
