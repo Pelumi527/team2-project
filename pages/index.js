@@ -22,6 +22,12 @@ export default function Home(props) {
   return (
     <div className={styles.container}>
       <Head>
+        <navbar>
+          <div>
+            <header>WEB3BRIDGE COHORT IV</header>
+          </div>
+          <div><h4>Presents to you a Team-2 oriented clone</h4></div>
+        </navbar>
         <title>CoinMarketCap Clone</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
