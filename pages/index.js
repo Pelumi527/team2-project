@@ -24,7 +24,7 @@ export default function Home(props) {
       <Head>
         <navbar>
           <div>
-            <header><h1>WEB3BRIDGE COHORT IV</h1></header>
+            <header>WEB3BRIDGE COHORT IV</header>
           </div>
           <div><h4>Presents to you a Team-2 oriented clone</h4></div>
         </navbar>
@@ -519,7 +519,7 @@ export default function Home(props) {
               </td>
               <td>{formatDollar(coin.current_price, 20)}</td>
               <td>{formatDollar(coin.market_cap, 12)}</td>
-              <td>{formatChart(coin.id.market_chart)}</td>
+              <td>{<img src='https://image.shutterstock.com/image-vector/abstract-financial-chart-uptrend-line-260nw-1331438417.jpg' style={{width: 105, height: 55, marginRight: 10}}/>}</td>
             </tr>
           ))}
         </tbody>
