@@ -525,6 +525,15 @@ export default function Home(props) {
         </tbody>
       </table>
     </div>
+    <footer>
+      <h2>Brought to you by Web3Bridge - Team2</h2>
+      <ul>
+        <li>Onyebuchi Justice</li>
+        <li>Fatolu Pelumi</li>
+        <li>Ogedengbe Surajudeen Ola</li>
+        <li>Olaoluwa Oni</li>
+      </ul>
+    </footer>
   )
 }
 
