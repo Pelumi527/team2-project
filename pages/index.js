@@ -519,7 +519,7 @@ export default function Home(props) {
               </td>
               <td>{formatDollar(coin.current_price, 20)}</td>
               <td>{formatDollar(coin.market_cap, 12)}</td>
-              <td>{formatChart(coin.market_chart)}</td>
+              <td>{formatChart(coin.id.market_chart)}</td>
             </tr>
           ))}
         </tbody>
